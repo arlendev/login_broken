@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #454d6b;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.menu a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: black;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0 0 40px;
+    /* height: 100vh; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card {
+    background-color: rgba(19, 19, 19, 0.3);
+    padding: 40px;
+    border-radius: 2px;
+    width:280px;
+}
+
+.card-header {
+    padding-bottom: 50px;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.card-header h2 {
+    font-size: 5em;
+}
+
+.card-header h2:hover {
+    color: black;
+}
